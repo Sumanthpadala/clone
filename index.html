@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background-color="">
+    <div class="top-bar">
+        <div class="address-bar">
+            <input type="text" id="address-bar" class="address-input" placeholder="Enter URL or search query...">
+        </div>
+        <button class="signup-button" id="signup-button">Sign Up</button>
+    </div>
+
+    <div class="container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+
+        <div class="search-container">
+            <input type="text" id="search-box" class="search-box" placeholder="Search Google or type a URL">
+            <div class="search-buttons">
+                <button class="search-button" id="search-button">Google Search</button>
+                <button class="search-button" id="lucky-button">I'm Feeling Lucky</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search works</a>
+            </div>
+            <div class="footer-location">
+                <span>Country: India</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="signup-form" id="signup-form">
+        <div class="signup-content">
+            <h2>Sign Up</h2>
+            <form id="form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" class="submit-button">Submit</button>
+                <button type="button" class="cancel-button" id="cancel-button">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
